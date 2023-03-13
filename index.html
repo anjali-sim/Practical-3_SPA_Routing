@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurniCom</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome Link -->
+
+    <!-- Bootstrap  CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap CSS Link -->
+
+    <!-- Icon Links -->
+    <link rel="icon" href="./src/assets/images/living-room.png">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Icon Links -->
+
+</head>
+
+<body>
+    
+    <div id="root">
+        <!-- Top Navigation Bar -->
+        <div class="container-fluid sticky-top pl-0 pr-0">
+            <div class="top-navigation-bar">
+                <div class="logo">
+                    <a class="navbar-brand logo-style" href="#">
+                        <img src="./src/assets/images/furnitures.png" alt="Logo" class="logo-style" width="30px"
+                            class="d-inline-block align-text-center">
+                        FURNICOM
+                    </a>
+                </div>
+                <div class="social-link">
+                    <i><img src="./src/assets/images/instagram.png" alt="instagram" width="30px"></i>
+                    <i><img src="./src/assets/images/twitter.png" alt="twitter" width="30px"></i>
+                    <i><img src="./src/assets/images/linkedin.png" alt="linkedin" width="30px"></i>
+                    <i><img src="./src/assets/images/facebook.png" alt="facebook" width="30px"></i>
+                    <i><img src="./src/assets/images/google-plus.png" alt="google-plus" width="30px"></i>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-md" id="navigation-bar-color">
+                <div class="container-fluid pl-0 pr-0">
+                    <!-- Toggler/Collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span><i><img src="./src/assets/images/menu.png" alt="menu-image" width="30px"></i></span>
+                    </button>
+
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/" onclick="route()">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/service" onclick="route()">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about" onclick="route()">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact" onclick="route()">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Top Navigation Bar -->
+
+        <!-- For displaying the different web pages -->
+        <div id="pageContent"></div>
+    </div>
+
+    <!-- Bottom To Top Toggle Button -->
+    <button id="buttonBottomToTop">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+
+    <!-- Script Links -->
+    <script src="./src/script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Script Links -->
+
+</body>
+
+</html>
