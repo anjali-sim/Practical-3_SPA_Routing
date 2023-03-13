@@ -36,5 +36,8 @@ page reload.</p>
 <p>2. I have also integrated a bottom to top button by which, on clicking it, it scrolls to the top of the page.</p>
 <p>3. The website is User-friendly which means it is easy to navigate.</p>
 
+## Screenshot of the website
+![screencapture-bucolic-salamander-f4f0c3-netlify-app-2023-03-13-16_33_19](https://user-images.githubusercontent.com/122269010/224704723-e1f0bcdd-b926-4f5a-8e45-ec830448a859.png)
+
 ## Check Live
 https://dulcet-dragon-2dd491.netlify.app/service
