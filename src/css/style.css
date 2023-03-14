@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Navigation Bar Style */
+.top-navigation-bar {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(238, 224, 208);
+}
+
+.logo-style {
+    font-weight: bold;
+    color: #8b3b35;
+    font-style: italic;
+}
+
+.logo-style:hover {
+    color: #8b3b35;
+    cursor: default;
+}
+
+.social-link i img {
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-link i img:hover {
+    background-color: #be5d56;
+    border-radius: 50px;
+}
+
+.icons i img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Main Content Style */
+.main-content {
+    height: 90vh;
+    background-image: url('../assets/images/bg-1.jpg');
+    background-size: cover;
+    background-position: 70%;
+}
+
+/* Navigation Bar Style */
+#navigation-bar-color {
+    background-color: #8b3b35;
+}
+
+#navbar {
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    margin-left: 30px;
+    font-weight: bold;
+    color: rgba(238, 224, 208);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+}
+
+/* Image Content Section Style */
+.image-content {
+    margin-left: 60px;
+}
+
+.image-content h1 {
+    font-size: 50px;
+    padding-top: 145px;
+}
+
+#image-button-shop-now button {
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#image-button-shop-now button:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+/* Services Section */
+#service-section-button button {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(238, 224, 208);
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#service-section-button button:hover {
+    color: rgba(238, 224, 208);
+    background-color: #8b3b35;
+    border-color: rgba(238, 224, 208);
+}
+
+.service-card-image {
+    height: 30vh;
+}
+
+.product-card-image {
+    height: 35vh;
+    opacity: 0.5;
+}
+
+.product-card-image:hover {
+    height: 35vh;
+}
+
+/* Products Section */
+#products-section-button button {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(238, 224, 208);
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#products-section-button button:hover {
+    color: rgba(238, 224, 208);
+    background-color: #8b3b35;
+    border-color: rgba(238, 224, 208);
+}
+
+#product-section {
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#product-section:hover {
+    transform: translateY(-10px);
+}
+
+/* Trendy Products Section */
+.product-list-image {
+    height: 30vh;
+}
+
+#trendy-products-section p {
+    font-weight: bold;
+}
+
+#trendy-products-section:hover img {
+    transform: scale(1.05);
+}
+
+#product-list-button {
+    text-align: center;
+}
+
+#product-list-button button {
+    width: 150px;
+    height: 30px;
+    background-color: rgba(238, 224, 208);
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#product-list-button button:hover {
+    color: rgba(238, 224, 208);
+    background-color: #8b3b35;
+    border-color: rgba(238, 224, 208);
+}
+
+/* About Us Section */
+#about-section-button button {
+    width: 150px;
+    height: 30px;
+    background-color: rgba(238, 224, 208);
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#about-section-button button:hover {
+    color: rgba(238, 224, 208);
+    background-color: #8b3b35;
+    border-color: rgba(238, 224, 208);
+}
+
+/* Contact Us Section */
+#footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#footer h3 {
+    color: rgba(238, 224, 208);
+    padding-top: 30px;
+}
+
+#footer p {
+    color: rgba(238, 224, 208);
+}
+
+.contact-content-heading-style {
+    font-weight: 600;
+}
+
+.social-icons i {
+    color: rgba(238, 224, 208);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: rgba(238, 224, 208);
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* For scrolling smoothly the webpage */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Style for bottom to top button */
+#buttonBottomToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8b3b35;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border: none;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#buttonBottomToTop i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    top: 1px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#buttonBottomToTop:hover {
+    background: #cc665e;
+    border: none;
+}
+
+#buttonBottomToTop:hover i {
+    color: #fff;
+    top: -4px;
+}
+
+/* Media Queries */
+@media screen and (max-width:990px) {
+    #product-list-button button {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .social-link i img {
+        width: 20px;
+    }
+
+    .logo h3 {
+        font-size: 20px;
+    }
+
+    .icons i img {
+        width: 20px;
+    }
+
+    .image-content h1 {
+        font-size: 30px;
+    }
+}
